@@ -1,0 +1,23 @@
+{
+  "name": "bym-discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LuisCoralesM/bym-discord-bot.git",
+  "author": "LuisCoralesM",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "deploy": "node --env-file=.env deploy-commands.js"
+  }
+}
